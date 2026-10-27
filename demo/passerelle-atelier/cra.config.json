@@ -1,0 +1,52 @@
+{
+  "produit": {
+    "nom": "Passerelle Atelier",
+    "version": "2.3.0",
+    "type": "materiel",
+    "description": "Passerelle fictive de démonstration : collecte Modbus TCP des machines d'un atelier, IHM web embarquée, historien local.",
+    "usagePrevu": "Réseau d'atelier industriel segmenté, accès opérateur par navigateur sur le réseau local ; pas d'exposition directe à Internet.",
+    "categorie": "defaut",
+    "categorieMotif": "Fonction principale : collecte et visualisation de données. Ni routeur, ni pare-feu, ni produit à fonction de sécurité listé à l'annexe III (analyse à confirmer).",
+    "finSupport": "2031-12-31",
+    "finSupportMotif": "Durée d'utilisation attendue du produit (art. 13, § 8) : au moins cinq ans sauf usage plus court.",
+    "etatsMembres": [
+      "FR",
+      "BE",
+      "DE"
+    ],
+    "url": "https://atelier-exemple.invalid/conformite"
+  },
+  "fabricant": {
+    "nom": "Atelier Exemple SAS (fictif)",
+    "adresse": "1 rue de l'Exemple, 00000 Ville-Exemple, France",
+    "email": "contact@atelier-exemple.invalid",
+    "site": "https://atelier-exemple.invalid",
+    "contactVulnerabilites": "securite@atelier-exemple.invalid",
+    "politiqueDivulgation": "https://atelier-exemple.invalid/securite"
+  },
+  "sources": {
+    "racine": ".",
+    "exclure": [
+      "outils"
+    ],
+    "sbomImportees": [
+      "historien.cdx.json"
+    ],
+    "inclureDev": false
+  },
+  "normes": [
+    {
+      "reference": "IEC 62443-4-1",
+      "titre": "Exigences du cycle de développement sécurisé",
+      "application": "partielle",
+      "harmonisee": false
+    },
+    {
+      "reference": "ETSI EN 303 645",
+      "titre": "Cybersécurité des objets connectés grand public",
+      "application": "utilisée comme référence, non applicable formellement",
+      "harmonisee": false
+    }
+  ],
+  "sortie": "cra-sortie"
+}

@@ -1,0 +1,4 @@
+# Outils de recette (lecture des journaux de la passerelle)
+pyyaml==5.3
+requests==2.25.0
+pymodbus==3.6.2

@@ -1,0 +1,28 @@
+{
+  "name": "consigne-cra-libre",
+  "version": "1.0.0",
+  "description": "SBOM CycloneDX, vulnérabilités OSV et KEV, VEX et garde-fou CI, en local et hors ligne (édition libre de consigne-cra).",
+  "type": "module",
+  "bin": {
+    "cra": "bin/cra.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cyber-resilience-act",
+    "cra",
+    "sbom",
+    "cyclonedx",
+    "vex",
+    "csaf",
+    "openvex",
+    "osv",
+    "kev",
+    "conformite"
+  ],
+  "license": "MIT"
+}

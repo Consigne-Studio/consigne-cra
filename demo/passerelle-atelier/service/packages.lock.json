@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0": {
+      "Newtonsoft.Json": { "type": "Direct", "requested": "[12.0.1, )", "resolved": "12.0.1" },
+      "NModbus": { "type": "Direct", "requested": "[3.0.81, )", "resolved": "3.0.81" },
+      "Serilog": { "type": "Direct", "requested": "[3.1.1, )", "resolved": "3.1.1" },
+      "System.Text.Encodings.Web": { "type": "Transitive", "resolved": "4.5.0" }
+    }
+  }
+}

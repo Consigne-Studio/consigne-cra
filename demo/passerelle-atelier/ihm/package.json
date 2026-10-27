@@ -1,0 +1,16 @@
+{
+  "name": "passerelle-atelier-ihm",
+  "version": "2.3.0",
+  "private": true,
+  "description": "Démonstration fictive : IHM web embarquée d'une passerelle d'atelier.",
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "ws": "7.4.5",
+    "jsonwebtoken": "8.5.1",
+    "minimist": "1.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
